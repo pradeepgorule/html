@@ -1,0 +1,63 @@
+<style type="text/css">
+                body{background-repeat:no-repeat; background-position: center 140px;}
+                #video-innovation{display:none; margin-top:-2px; margin-bottom:20px; position:relative; max-width:1560px; margin:35px auto; height:500px;
+    background: url(http://www.indiantelevision.com/banner/Zoom-Imperfect-_Telly_1560x500px-03.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    }
+                #video-innovation .container{padding:0; position:relative;}
+#video-innovation iframe {
+    position: absolute;
+    botton: 0;
+    /* right: 0; */
+    bottom: 65px;
+    width: 500px;
+    height: 350px;
+
+    left: 703px;
+    margin: 0 auto;
+}
+                .latest-highlight{margin:0 auto;}
+.closeimg {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: -22px;
+    top: -16px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+                jQuery(document).ready(function(){
+   jQuery("#video-innovation").slideDown("slow");      
+
+    });
+
+
+$(document).ready(function() {
+
+    setTimeout(function() {
+
+        $("#video-innovation").fadeOut(1500);
+
+    },5000);
+
+});
+See 
+</script>
+
+<script>
+$("#video-innovation a").click(function(){
+    $(".roadblock").show();
+});
+</script>
+
+
+<!-- Video Pulldown Start-->
+<div id="video-innovation" class="hidden-md hidden-sm hidden-xs">
+                <div class="">
+                                <a onclick="document.getElementById('video-innovation').style.display='none'; document.body.style.backgroundImage = '';" href="javascript://"><img src="http://www.indiantelevision.com/sample-creatives/close.png" border="0"  class="closeimg"/></a>
+
+      
+             <iframe src="https://www.youtube.com/embed/aJuF_M-3YX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
